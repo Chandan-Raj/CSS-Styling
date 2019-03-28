@@ -1,0 +1,86 @@
+body {
+	background-image: url("background1.jpg");
+	background-size: cover;
+}
+p {
+	font-size: 21px;
+}
+#title {
+	font-family: 'Lobster', cursive;
+	font-size: 32px;
+}
+
+#container_center{
+	font-family: 'Work Sans', sans-serif;
+	background-color: rgb(214, 212, 212);
+	border-radius: 5px;	
+	width: 65%;
+	height: fill;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	margin : 0 auto;
+	text-align: center;
+}
+
+#nav{
+	font-size: 19px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+ li a {
+ 	display: block;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+ }
+img {
+	max-width: 50%;
+	height: auto;
+}
+
+#subscribe {
+	color: white;
+}
+
+#sub_li {
+	background-color: red;
+	border-radius: 5px;
+}
+
+#name_input {
+	float: left;
+}
+
+#cmt{
+	float: left;
+}
+
+label {
+	float: left;
+	text-align: left;
+}
+
+#sub{
+	float: left;
+	padding-left: 130px;
+}
+
+#sub_btn {
+	padding: 8px;
+}
+
+#logo {
+	width: 118px;
+	height: 118px;
+	padding-left: 25px;
+}
+ 	
